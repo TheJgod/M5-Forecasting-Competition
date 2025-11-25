@@ -1,6 +1,6 @@
 # M5 Kaggle Forecasting — Promo Features & Foundation Models
 
-This project addresses the **M5 Kaggle time-series forecasting challenge**, with a focus on **promo-aware feature engineering** and **benchmarking diverse forecasting approaches**.
+This project addresses the **M5 Kaggle time-series forecasting challenge**, with a focus on **benchmarking diverse forecasting approaches**.
 
 ---
 
@@ -37,6 +37,5 @@ This workflow is fully **reproducible**, enabling straightforward experimentatio
 ---
 
 ## 🔑 Key Takeaways
-- Advanced promo-aware features improve forecast accuracy.  
 - Foundational models like **TimesFM** excel in **cross-series generalization**.  
 - Combining statistical, ML, and deep learning models provides a **comprehensive performance benchmark**.
