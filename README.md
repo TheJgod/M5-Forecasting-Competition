@@ -19,7 +19,6 @@ Tested a wide spectrum of models:
 |----------|--------|
 | Statistical | Traditional time-series methods |
 | Machine Learning | XGBoost, LightGBM |
-| Deep Learning | N-HiTS, RNNs |
 | Foundational Model | TimesFM |
 
 > **TimesFM** consistently outperformed the strongest ML baseline by **~3–5%**, showing robust **cross-series generalization**.
