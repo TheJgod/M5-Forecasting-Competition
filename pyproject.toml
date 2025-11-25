@@ -1,0 +1,28 @@
+[project]
+name = "m5-forecasting-competition"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "TheOneJoao",email = "joao.silva.unique@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "notebook (>=7.4.7,<8.0.0)",
+    "ydata-profiling (>=4.17.0,<5.0.0)",
+    "numpy (<=2.1)",
+    "ipywidgets (>=8.1.7,<9.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "timesfm @ git+https://github.com/google-research/timesfm.git",
+    "darts (>=0.39.0,<0.40.0)",
+    "xgboost (>=3.1.2,<4.0.0)",
+    "u8darts[notorch] (>=0.39.0,<0.40.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
